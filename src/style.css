@@ -3,17 +3,11 @@ body {
   margin: 0px;
 }
 section {
-  height: 98vh;
+  height: 98.99vh;
   background-color: #1c1d1c;
   color: whitesmoke;
   border-bottom: solid orangered 1vh;
   border-bottom-right-radius: 100vh;
-}
-footer {
-  background-color: white;
-  height: 20vh;
-  margin-top: 2vh;
-  text-align: center;
 }
 h1 {
   font-size: 90px;
@@ -22,22 +16,7 @@ h1 {
   border-bottom: solid olivedrab 0.4vh;
   border-bottom-left-radius: 30px;
 }
-h2 {
-  font-size: 35px;
-  margin: 0px;
-}
-h3 {
-  font-size: 20px;
-  margin: 0px;
-  margin-top: 1vh;
-  border: solid 1px;
-  border-radius: 10px;
-  margin-left: 20vw;
-  margin-right: 20vw;
-}
-h3:hover {
-  color: rgb(72, 95, 26);
-}
+
 p {
   font-size: 40px;
   font-weight: 200;
@@ -58,7 +37,7 @@ p {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 35vw;
+  width: 43vw;
   margin-top: 100px;
 }
 svg:hover {

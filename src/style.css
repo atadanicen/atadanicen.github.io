@@ -11,7 +11,7 @@ section {
   border-bottom-right-radius: 100vh;
 }
 h1 {
-  font-size: 7vw;
+  font-size: 6vw;
   margin: 0px;
   font-weight: 400;
   border-left: solid wheat 0.5vh;
@@ -19,7 +19,7 @@ h1 {
 }
 
 p {
-  font-size: 4vw;
+  font-size: 3vw;
   font-weight: 200;
 }
 .aboutMe {

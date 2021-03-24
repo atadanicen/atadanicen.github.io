@@ -1,45 +1,45 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 0px;
+  background-color: seagreen;
 }
 section {
-  height: 98.99vh;
+  height: 96.99vh;
   background-color: #1c1d1c;
   color: whitesmoke;
-  border-bottom: solid orangered 1vh;
+  border-bottom: solid wheat 3vh;
   border-bottom-right-radius: 100vh;
 }
 h1 {
-  font-size: 90px;
+  font-size: 7vw;
   margin: 0px;
   font-weight: 400;
-  border-bottom: solid olivedrab 0.4vh;
-  border-bottom-left-radius: 30px;
+  border-left: solid wheat 0.5vh;
+  padding-left: 1vw;
 }
 
 p {
-  font-size: 40px;
+  font-size: 3vw;
   font-weight: 200;
 }
 .aboutMe {
+  width: 99vw;
   display: flex;
-  height: 100vh;
   justify-content: space-between;
-  align-items: center;
+  padding-top: 10vh;
 }
 .aboutMeText {
   margin-left: 3vw;
   margin-right: 5vw;
   padding-right: 5vw;
-  margin-bottom: 10vh;
 }
 .socials {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 43vw;
-  margin-top: 100px;
+  width: 50vw;
+  margin-top: 7vh;
 }
 svg:hover {
-  fill: cyan;
+  fill: seagreen;
 }

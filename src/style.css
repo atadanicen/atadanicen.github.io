@@ -1,7 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 0px;
-  background-color: seagreen;
+  background-color: #2e8b57;
 }
 section {
   height: 96.99vh;
@@ -41,5 +41,5 @@ p {
   margin-top: 7vh;
 }
 svg:hover {
-  fill: seagreen;
+  fill: #2e8b57;
 }

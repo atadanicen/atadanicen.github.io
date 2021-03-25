@@ -4,7 +4,7 @@ body {
   background-color: #2e8b57;
 }
 section {
-  height: 96vh;
+  height: 96.9vh;
   background-color: #1c1d1c;
   color: whitesmoke;
   border-bottom: solid wheat 3vh;
@@ -38,7 +38,7 @@ p {
   justify-content: space-around;
   align-items: center;
   width: 50vw;
-  padding-top: 7vh;
+  margin-top: 7vh;
 }
 svg:hover {
   fill: #2e8b57;

@@ -1,44 +1,19 @@
-# vCard - Personal portfolio
+# atadanicen.github.io
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
-![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
+Welcome to my GitHub repository! Here, you'll find the source code for my personal website and portfolio. It's the place where I showcase my skills, share my professional journey, and highlight some cool projects. Plus, it's super easy to reach out to me through the website. I've built it using HTML, CSS, and JavaScript, starting with the [codewithsadee/vcard-personal-portfolio](https://github.com/codewithsadee/vcard-personal-portfolio) project as a base. I've added my personal touch to make it match my style flawlessly!
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+## Clone the Repository
 
-## Demo
+To run this project on your local machine, follow these steps:
 
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+1. Clone the repository by running the following command in your terminal or command prompt:
 
-## Prerequisites
+``` git clone https://github.com/atadanicen/atadanicen.github.io ```
 
-Before you begin, ensure you have met the following requirements:
+2. Navigate to the cloned repository's folder:
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+```cd atadanicen.github.io```
 
-## Installing vCard
+3. Open the `index.html` file in your preferred web browser.
 
-To install **vCard**, follow these steps:
-
-Linux and macOS:
-
-```bash
-sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
-
-Windows:
-
-```bash
-git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
-
-## Contact
-
-If you want to contact me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
-
-## License
-
-MIT
+Now you should be able to see the website running locally on your computer.

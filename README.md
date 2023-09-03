@@ -8,11 +8,15 @@ To run this project on your local machine, follow these steps:
 
 1. Clone the repository by running the following command in your terminal or command prompt:
 
-``` git clone https://github.com/atadanicen/atadanicen.github.io ```
+```bash 
+git clone https://github.com/atadanicen/atadanicen.github.io
+```
 
 2. Navigate to the cloned repository's folder:
 
-```cd atadanicen.github.io```
+```bash 
+cd atadanicen.github.io
+```
 
 3. Open the `index.html` file in your preferred web browser.
 

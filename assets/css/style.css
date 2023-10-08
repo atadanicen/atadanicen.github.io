@@ -836,6 +836,11 @@ main {
   padding-top: 17px;
 }
 
+.mongoDB-logo {
+  padding-top: 34px;
+  width: 100% !important;
+}
+
 .clients-item img:hover {
   filter: grayscale(0);
 }

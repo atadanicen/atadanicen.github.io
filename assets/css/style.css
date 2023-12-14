@@ -2142,8 +2142,6 @@ textarea.form-input::-webkit-resizer {
 
   .contact-info :is(.contact-link) {
     white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
 
   .contact-info :is(.contact-link, time, address) {

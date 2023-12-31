@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +17,52 @@
     - custom css link
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/fireworks-js@2.x/dist/index.umd.js"></script>
+
+  <!-- Christmas Spirit -->
+  <script>
+
+
+    function checkTimeAndTriggerFireworks() {
+      const currentDate = new Date();
+      const currentMonth = currentDate.getMonth();
+      const currentHour = currentDate.getHours();
+      const currentMinutes = currentDate.getMinutes();
+      // Check if it's January and the time is 00:00
+      if (currentMonth === 0 && currentHour === 0 && currentMinutes === 0) {
+        const container = document.querySelector('.fireworks')
+        const fireworks = new Fireworks.default(container)
+        fireworks.start()
+      }
+    }
+    function createTwinklingLights(containerSelector, numLights) {
+      const lightrope = document.querySelector(containerSelector);
+
+      for (let i = 0; i < numLights; i++) {
+        const light = document.createElement('div');
+        lightrope.appendChild(light);
+      }
+    }
+    const currentDate = new Date();
+    const currentMonth = currentDate.getMonth();
+    const monthsWithSnow = [11, 0];
+
+
+
+    window.onload = function () {
+      if (monthsWithSnow.includes(currentMonth)) {
+        const snowScript = document.createElement('script');
+        snowScript.src = 'https://app.embed.im/snow.js';
+        snowScript.defer = true;
+        document.head.appendChild(snowScript);
+        createTwinklingLights('.lightrope', 19);
+        setInterval(checkTimeAndTriggerFireworks, 1000);
+      }
+
+
+    };
+
+  </script>
 
   <!--
     - google font link
@@ -25,7 +72,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body class="">
+
 
   <!--
     - #MAIN
@@ -36,19 +84,21 @@
     <!--
       - #SIDEBAR
     -->
-
     <aside class="sidebar" data-sidebar>
 
       <div class="sidebar-info">
 
         <figure class="avatar-box">
           <img src="./assets/images/avatar.png" alt="Richard hanrick" width="80">
-        </figure>
 
+        </figure>
+        <div class="fireworks" style="width: 250px;height: 580px; position: fixed; z-index: -1;  margin-top: -90px;">
+        </div>
         <div class="info-content">
           <h1 class="name" title="atadanicen">Atadan icen</h1>
 
-          <p class="title">Jr. Data Scientist</p>
+          <p class="title">Machine Learning Engineer</p>
+
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -89,45 +139,50 @@
               <p class="contact-title">Location</p>
 
               <address>Ankara, Turkey</address>
+
             </div>
+      </div>
 
-          </li>
+      </li>
 
-        </ul>
+      </ul>
 
-        <div class="separator"></div>
+      <div class="separator"></div>
 
-        <ul class="social-list">
+      <ul class="social-list">
 
-          <li class="social-item">
-            <a href="http://linkedin.com/atadanicen" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
+        <li class="social-item">
+          <a href="http://linkedin.com/atadanicen" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
 
-          <li class="social-item">
-            <a href="http://github.com/atadanicen" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
+        <li class="social-item">
+          <a href="http://github.com/atadanicen" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
 
-          <li class="social-item">
-            <a href="http://twitter.com/atadanicen" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
+        <li class="social-item">
+          <a href="http://twitter.com/atadanicen" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
 
-          <li class="social-item">
-            <a href="https://www.instagram.com/atadanicen/" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
+        <li class="social-item">
+          <a href="https://www.instagram.com/atadanicen/" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
 
-        </ul>
+      </ul>
+
 
       </div>
 
+
     </aside>
+
 
 
 
@@ -148,13 +203,17 @@
         - #ABOUT
       -->
 
+      <div class="lightrope" style="margin-top: -18px;"></div>
       <article class="about  active" data-page="about">
+
 
         <header>
           <h2 class="h2 article-title">About me</h2>
         </header>
 
+
         <section class="about-text">
+
           <p>
 
             I'm someone who thrives on pushing the boundaries of technology. I'm driven by a deep curiosity to explore
@@ -294,6 +353,7 @@
           </ul>
 
         </section>
+
 
         <!--
           - testimonials modal

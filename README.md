@@ -14,10 +14,6 @@ git clone https://github.com/atadanicen/atadanicen.github.io
 
 2. Navigate to the cloned repository's folder:
 
-```bash 
-cd atadanicen.github.io
-```
-
 3. Open the `index.html` file in your preferred web browser.
 
 Now you should be able to see the website running locally on your computer.
